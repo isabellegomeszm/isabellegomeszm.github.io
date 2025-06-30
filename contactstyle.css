@@ -1,0 +1,258 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  flex: 1;
+}
+
+.portfolio-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+flex-direction: column;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.portfolio-content {
+  background-color: transparent;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+.portfolio .overlap {
+  position: relative;
+  width: 100%;
+  height: auto; /* altura da tela */
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* HEADER */
+
+.header {
+  background-color: #ffffff;
+}
+
+.nav-link.active {
+  background-color: #d5d5d5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+
+
+.group{
+  position: absolute;
+  width: 66px;
+  height: 149px;
+  top: 100px;
+  right: 20px;
+  padding: 0;
+  z-index: 10000;
+  gap: 20px;
+}
+
+.linked-in {
+  position: absolute;
+  width: 56px;
+  height: 48px;
+  top: 20px;
+  left: 5px;
+  opacity: 0.50;
+}
+
+.email{
+  position: absolute;
+  width: 56px;
+  height: 48px;
+  top: 85px;
+  left: 5px;
+  opacity: 0.50;
+}
+
+.linked-in:hover,
+.email:hover {
+  transform: scale(1.1);
+}
+
+
+/*CONTACT-SECTION */
+
+.contact-section {
+  background-image: url('./images/skills-bg.png'); /* sua imagem */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;    /* cobre toda área */
+  padding: 30px 0;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-content {
+  flex: 1 1 40%;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-role {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-family: 'Nunito', Helvetica, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal; 
+}
+
+.contact-title {
+  position: relative;
+  width: 450px;
+  margin-top: 15%;
+  margin-left: 50px;
+  margin-bottom: 28px;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 600;
+  color: #0e0e0e;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.contact-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.contact-form {
+  width: 500px;
+  display: flex;
+  margin-top: 50px;
+  margin-right: 10%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-family: 'Nunito';
+}
+
+.form-row input,
+.form-row textarea {
+  padding: 10px;
+  font-family: inherit;
+  font-size: 14px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+}
+
+.button-primary {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button-primary:hover {
+  background-color: #ea4e91;
+}
+
+.form-disclaimer {
+  font-size: 12px;
+  margin-top: -12px;
+  color: #666;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #ffffff;
+  height: 70px;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  margin-top: 10px;
+  width: 100%;
+  padding: 11px 50px; /* margens laterais pequenas, controla a proximidade com as bordas */
+  z-index: 999;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-link.active {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: italic;
+  color: #ff537c;
+}
+
+
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

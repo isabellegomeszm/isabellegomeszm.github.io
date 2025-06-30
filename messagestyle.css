@@ -1,0 +1,411 @@
+.message-simple {
+  background-color: #f9faff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.message-simple .div {
+  background-color: var(--bg-gray);
+  overflow: hidden;
+  width: 1440px;
+  height: 1062px;
+  position: relative;
+}
+
+.message-simple .overlap {
+  height: 918px;
+  top: 90px;
+  left: 0;
+  position: absolute;
+  width: 1440px;
+}
+
+.message-simple .overlap-group {
+  height: 912px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 1440px;
+}
+
+.message-simple .rectangle {
+  position: absolute;
+  width: 502px;
+  height: 217px;
+  top: 418px;
+  left: 834px;
+  background-color: #ff537c;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.message-simple .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 824px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 83, 124, 0.7) 0%,
+    rgba(195, 135, 250, 0.7) 52%,
+    rgba(78, 193, 235, 0.7) 100%
+  );
+}
+
+.message-simple .about-me {
+  display: flex;
+  flex-direction: column;
+  width: 588px;
+  align-items: flex-start;
+  gap: 32px;
+  position: absolute;
+  top: 150px;
+  left: 120px;
+}
+
+.message-simple .title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--title-h2-font-family);
+  font-weight: var(--title-h2-font-weight);
+  color: var(--font-high-emphasis);
+  font-size: var(--title-h2-font-size);
+  letter-spacing: var(--title-h2-letter-spacing);
+  line-height: var(--title-h2-line-height);
+  font-style: var(--title-h2-font-style);
+}
+
+.message-simple .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.message-simple .footer-icons {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  position: absolute;
+  top: 810px;
+  left: 660px;
+}
+
+.message-simple .isabelle-gomes {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.message-simple .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.message-simple .img {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.message-simple .rectangle-3 {
+  position: absolute;
+  width: 502px;
+  height: 1px;
+  top: 278px;
+  left: 834px;
+  background-color: var(--bg-line);
+  border-radius: 1px;
+}
+
+.message-simple .rectangle-4 {
+  position: absolute;
+  width: 502px;
+  height: 1px;
+  top: 350px;
+  left: 834px;
+  background-color: var(--bg-line);
+  border-radius: 1px;
+}
+
+.message-simple .rectangle-5 {
+  position: absolute;
+  width: 238px;
+  height: 1px;
+  top: 210px;
+  left: 1098px;
+}
+
+.message-simple .rectangle-6 {
+  position: absolute;
+  width: 238px;
+  height: 1px;
+  top: 210px;
+  left: 834px;
+}
+
+.message-simple .text-wrapper {
+  position: absolute;
+  top: 164px;
+  left: 835px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.message-simple .text-wrapper-2 {
+  position: absolute;
+  top: 164px;
+  left: 1098px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.message-simple .text-wrapper-3 {
+  position: absolute;
+  top: 230px;
+  left: 835px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.message-simple .text-wrapper-4 {
+  position: absolute;
+  top: 298px;
+  left: 835px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.message-simple .p {
+  position: absolute;
+  top: 485px;
+  left: 890px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.message-simple .text-wrapper-5 {
+  position: absolute;
+  width: 615px;
+  top: 100px;
+  left: 124px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.message-simple .button-primary {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 8px 24px;
+  position: absolute;
+  top: 549px;
+  left: 1045px;
+  background-color: #d9d9d9;
+  border-radius: 8px;
+}
+
+.message-simple .text-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font-high-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.message-simple .by-sending-this {
+  position: absolute;
+  width: 355px;
+  top: 655px;
+  left: 979px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000cc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.message-simple .text-wrapper-6 {
+  position: absolute;
+  top: 871px;
+  left: 107px;
+  font-family: "Nunito-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.message-simple .text-wrapper-7 {
+  position: absolute;
+  top: 896px;
+  left: 108px;
+  font-family: "Nunito-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.message-simple .text-wrapper-8 {
+  position: absolute;
+  top: 871px;
+  left: 1242px;
+  font-family: "Nunito-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.message-simple .text-wrapper-9 {
+  position: absolute;
+  top: 896px;
+  left: 1242px;
+  font-family: "Nunito-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font-medium-emphasis);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.message-simple .overlap-2 {
+  height: 56px;
+  top: 19px;
+  left: -12px;
+  position: absolute;
+  width: 1440px;
+}
+
+.message-simple .header {
+  position: absolute;
+  width: 1440px;
+  height: 56px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.message-simple .text-wrapper-10 {
+  position: absolute;
+  top: 11px;
+  left: 120px;
+  font-family: "Comfortaa-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--font-high-emphasis);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 32.4px;
+  white-space: nowrap;
+}
+
+.message-simple .nav {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 48px;
+  position: absolute;
+  top: 14px;
+  left: 873px;
+}
+
+.message-simple .tab-default {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.message-simple .sobre {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-18px-font-family);
+  font-weight: var(--body-18px-font-weight);
+  color: var(--font-high-emphasis);
+  font-size: var(--body-18px-font-size);
+  letter-spacing: var(--body-18px-letter-spacing);
+  line-height: var(--body-18px-line-height);
+  white-space: nowrap;
+  font-style: var(--body-18px-font-style);
+}
+
+.message-simple .ellipse {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 19px;
+  left: 90px;
+  background-color: #ff527c;
+  border-radius: 9px;
+}
+
+.message-simple .rectangle-7 {
+  position: absolute;
+  width: 85px;
+  height: 2px;
+  top: 40px;
+  left: 1235px;
+  background-color: var(--bg-line);
+  border-radius: 2px;
+}
